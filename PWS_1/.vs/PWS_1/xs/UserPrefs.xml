@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{76FBB46B-1CD7-45A1-B79E-C856359664B4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PWS_1/packages.config">
+    <Files>
+      <File FileName="PWS_1/DeleteHandler.cs" Line="1" Column="1" />
+      <File FileName="PWS_1/GetHandler.cs" Line="1" Column="1" />
+      <File FileName="PWS_1/Result.cs" Line="1" Column="1" />
+      <File FileName="PWS_1/Web.config" Line="26" Column="22" />
+      <File FileName="PWS_1/Web.Debug.config" Line="1" Column="1" />
+      <File FileName="PWS_1/packages.config" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PWS_1" expanded="True">
+            <Node name="PWS_1" expanded="True">
+              <Node name="packages.config" selected="True" />
+              <Node name="Web.config" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PWS__1 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
