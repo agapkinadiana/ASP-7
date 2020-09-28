@@ -1,0 +1,187 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Lab3</title>
+</head>
+<body>
+    <div>
+        <div class="controls">
+            <div>
+                <button onclick="getList()">GET List</button>
+
+                <label>
+                    Query:
+                    <input type="text" name="query" />
+                </label>
+            </div>
+            <div>
+                <button onclick="getOne()">GET One</button>
+
+                <label>
+                    Id:
+                    <input type="number" name="get-id" />
+                </label>
+            </div>
+            <div>
+                <button onclick="post()">POST</button>
+
+                <label>
+                    Name:
+                    <input type="text" name="post-name" />
+                </label>
+                <label>
+                    Phone:
+                    <input type="tel" name="post-phone" />
+                </label>
+            </div>
+            <div>
+                <button onclick="put()">PUT</button>
+
+                <label>
+                    Id:
+                    <input type="number" name="put-id" />
+                </label>
+                <label>
+                    Name:
+                    <input type="text" name="put-name" />
+                </label>
+                <label>
+                    Phone:
+                    <input type="tel" name="put-phone" />
+                </label>
+            </div>
+            <div>
+                <button onclick="deleteOne()">DELETE One</button>
+
+                <label>
+                    Id:
+                    <input type="number" name="delete-id" />
+                </label>
+            </div>
+        </div>
+        <div class="result"></div>
+        <br />
+        <br />
+        <div class="result-list"></div>
+    </div>
+
+    <script>
+
+        const DOMAIN = `${location.protocol}//${location.hostname}${location.port ? ':' + location.port : ''}`;
+        const API_ENDPOINT = DOMAIN + '/api/students';
+
+
+        function getList() {
+            const queryString = document.getElementsByName('query')[0].value;
+            return fetch(`${API_ENDPOINT}/?${queryString}`)
+                .then(handleResponse)
+                .then(displayList)
+                .catch(displayError);
+        }
+
+        function getOne() {
+            const studentId = document.getElementsByName('get-id')[0].value || -1;
+            return fetch(`${API_ENDPOINT}/${studentId}`)
+                .then(handleResponse)
+                .then(displayOne)
+                .then(getList)
+                .catch(displayError);
+        }
+
+        function post() {
+            const studentName = document.getElementsByName('post-name')[0].value;
+            const studentPhone = document.getElementsByName('post-phone')[0].value;
+            return fetch(API_ENDPOINT, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: studentName,
+                    phone: studentPhone
+                })
+            })
+                .then(handleResponse)
+                .then(displayOne)
+                .then(getList)
+                .catch(displayError);
+        }
+
+        function put() {
+            const studentId = document.getElementsByName('put-id')[0].value || -1;
+            const studentName = document.getElementsByName('put-name')[0].value;
+            const studentPhone = document.getElementsByName('put-phone')[0].value;
+            return fetch(API_ENDPOINT, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    id: studentId,
+                    name: studentName,
+                    phone: studentPhone
+                })
+            })
+                .then(handleResponse)
+                .then(displayOne)
+                .then(getList)
+                .catch(displayError);
+        }
+
+        function deleteOne() {
+            const studentId = document.getElementsByName('delete-id')[0].value || -1;
+            return fetch(`${API_ENDPOINT}/${studentId}`, {
+                method: 'DELETE'
+            })
+                .then(handleResponse)
+                .then(displayOne)
+                .then(getList)
+                .catch(displayError);
+        }
+
+
+        async function handleResponse(response) {
+            if (response.ok) {
+                return { wrapper: await response.json() };
+            } else {
+                return { error: await response.json() };
+            }
+        }
+
+        function displayOne({ wrapper, error }) {
+            if (error) {
+                alert(JSON.stringify(error, null, '  '));
+            } else {
+                const resultContainer = document.getElementsByClassName('result')[0];
+                resultContainer.innerHTML = '';
+                const studentEntry = document.createElement('div');
+                studentEntry.innerHTML = `<h3>${getStudentInfoString(wrapper.Data)}</h3>`;;
+                resultContainer.appendChild(studentEntry);
+            }
+            return { wrapper, error };
+        }
+
+        function displayList({ wrapper, error }) {
+            if (error) {
+                alert(JSON.stringify(error, null, '  '));
+            } else {
+                const resultContainer = document.getElementsByClassName('result-list')[0];
+                resultContainer.innerHTML = '';
+                wrapper.Data.forEach(student => {
+                    const studentEntry = document.createElement('div');
+                    studentEntry.innerHTML = `<h3>${getStudentInfoString(student)}</h3>`;
+                    resultContainer.appendChild(studentEntry);
+                });
+            }
+            return { wrapper, error };
+        }
+
+        function displayError(error) {
+            alert('Error: ' + error);
+        }
+
+        function getStudentInfoString(student) {
+            return Object.keys(student).map(fieldName => student[fieldName]).join(', ');
+        }
+    </script>
+</body>
+</html>
