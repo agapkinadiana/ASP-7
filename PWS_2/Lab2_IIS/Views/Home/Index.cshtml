@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lab2</title>
+</head>
+<body>
+    <div>
+        <div>
+            <button onclick="get()">GET</button>
+        </div>
+        <div>
+            <button onclick="post(10)">POST</button>
+        </div>
+        <div>
+            <button onclick="put(4)">PUT</button>
+        </div>
+        <div>
+            <button onclick="del()">DELETE</button>
+        </div>
+        <br />
+        <div class="result"></div>
+    </div>
+
+    <script>
+        const API_URL = "/api/values";
+
+
+        function get() {
+            fetch(API_URL)
+                .then(response => response.json())
+                .then(output);
+        }
+
+        function post(result) {
+            fetch(`${API_URL}?result=${result}`, {
+                method: 'POST'
+            }).then(response => response.json())
+                .then(output);
+        }
+
+        function put(add) {
+            fetch(`${API_URL}?add=${add}`, {
+                method: 'PUT'
+            }).then(response => response.json())
+                .then(output);
+        }
+
+        function del() {
+            fetch(API_URL, {
+                method: 'DELETE'
+            }).then(response => response.json())
+                .then(output);
+        }
+
+
+        function output(obj) {
+            document.getElementsByClassName("result")[0].innerHTML = JSON.stringify(obj, null, '  ');
+        }
+    </script>
+</body>
+</html>
