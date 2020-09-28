@@ -4,10 +4,11 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Script.Serialization;
+using System.Web.SessionState;
 
 namespace PWS_1
 {
-    public class WebHandler : IHttpHandler
+    public class WebHandler : IHttpHandler, IRequiresSessionState
     {
         /// <summary>
         /// You will need to configure this handler in the Web.config file of your 
@@ -17,90 +18,90 @@ namespace PWS_1
         #region IHttpHandler Members
 
         public static int result = 0;
-
-        public static Stack<int> stack = new Stack<int>();
         public bool IsReusable => true;
 
         public void ProcessRequest(HttpContext context)
         {
-            JavaScriptSerializer js = new JavaScriptSerializer();
-            HttpResponse res = context.Response;
-            HttpRequest req = context.Request;
-            res.ContentType = "application/json";
+            HttpRequest request = context.Request;
+            HttpResponse response = context.Response;
 
-            switch (req.HttpMethod)
+            switch (request.HttpMethod)
             {
                 case "GET":
                     {
-                        try
+                        if (context.Session["stack"] == null)
                         {
-                            int top = stack.Peek();
-                            res.Write(js.Serialize(new { result = result + stack.FirstOrDefault(), stack }));
+                            context.Session["stack"] = new Stack<int>();
                         }
-                        catch (InvalidOperationException)
+                        Stack<int> stack = (Stack<int>)context.Session["stack"];
+                        string resultStack = "";
+                        foreach (var i in stack.ToArray())
                         {
-                            res.Write(js.Serialize(new { result, stack = "Stack is empty" }));
+                            resultStack += i + " ";
                         }
+
+                        int final = result;
+                        if (stack.Count > 0)
+                        {
+                            final += stack.Peek();
+                        }
+
+                        response.Write($"Get: {final} ({result})" + ", stack: " + resultStack);
                     };
                     break;
                 case "POST":
                     {
-                        int number;
-
-                        if (int.TryParse(req.Params["result"], out number))
-                        {
-                            try
-                            {
-                                result = number;
-                                int top = stack.Peek();
-                                res.Write(js.Serialize(new { result = result + top, stack }));
-                            }
-                            catch (InvalidOperationException)
-                            {
-                                res.Write(js.Serialize(new { result, stack = "Stack is empty" }));
-                            }
-                        }
-                        else
-                        {
-                            res.Write(js.Serialize(new { error = new { message = "Type of Params['result'] is not Integer", result = req.Params["result"] } }));
-                        }
+                        int resultPost = result + int.Parse(request.Params["result"]);
+                        result = resultPost;
+                        
+                        context.Response.Write($"POST: {resultPost}");
                     };
                     break;
                 case "PUT":
                     {
-                        int number;
+                        string add = request.Params["add"];
 
-                        if (int.TryParse(req.Params["add"], out number))
+                        if (add == null)
                         {
-                            stack.Push(number);
-                            try
+                            add = "1";
+                        }
+                        //PUT
+                        if (context.Session["stack"] != null)
+                        {
+                            Stack<int> stack = (Stack<int>)context.Session["stack"];
+                            stack.Push(int.Parse(add));
+                            context.Session["stack"] = stack;
+                            string result = "";
+                            foreach (var i in stack.ToArray())
                             {
-                                int top = stack.Peek();
-                                res.Write(js.Serialize(new { result = result + top, stack }));
+                                result += i + " ";
                             }
-                            catch (InvalidOperationException)
-                            {
-                                res.Write(js.Serialize(new { result, stack = "Stack is empty" }));
-                            }
+                            context.Response.Write($"PUT: {result}");
                         }
                         else
                         {
-                            res.Write(js.Serialize(new { error = new { message = "Type of Params['add'] is not Integer", result = req.Params["add"] } }));
+                            response.Redirect("/");
                         }
                     };
                     break;
                 case "DELETE":
                     {
-                        try
+                        if (context.Session["stack"] != null)
                         {
+                            Stack<int> stack = (Stack<int>)context.Session["stack"];
                             stack.Pop();
-                            int top = stack.Peek();
-                            res.Write(js.Serialize(new { result = result + top, stack }));
+                            context.Session["stack"] = stack;
+                            string result = "";
+                            foreach (var i in stack.ToArray())
+                            {
+                                result += i + " ";
+                            }
+                            context.Response.Write($"DELETE: {result}");
                         }
-                        catch (InvalidOperationException)
+                        else
                         {
-                            res.Write(js.Serialize(new { result, stack = "Stack is empty" }));
-                        };
+                            response.Redirect("/");
+                        }
                     };
                     break;
             }

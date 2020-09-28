@@ -52,59 +52,230 @@
 /Users/dianaagapkina/Downloads/PWS-master/PWS_1/PWS_1/obj/Debug/PWS_1.csproj.CopyComplete
 /Users/dianaagapkina/Downloads/PWS-master/PWS_1/PWS_1/obj/Debug/PWS_1.dll
 /Users/dianaagapkina/Downloads/PWS-master/PWS_1/PWS_1/obj/Debug/PWS_1.pdb
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\PWS_1.dll.config
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\PWS_1.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\PWS_1.pdb
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\csc.exe
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\csc.exe.config
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\csc.rsp
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\csi.exe
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\csi.exe.config
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\csi.rsp
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\Microsoft.CSharp.Core.targets
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\Microsoft.Managed.Core.targets
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.AppContext.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Collections.Immutable.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Console.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Diagnostics.StackTrace.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.IO.Compression.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.IO.FileSystem.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.IO.FileSystem.Primitives.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.IO.Pipes.AccessControl.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.IO.Pipes.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Reflection.Metadata.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Security.AccessControl.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Security.Claims.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.Encoding.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.Primitives.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Security.Principal.Windows.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Text.Encoding.CodePages.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.ValueTuple.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Xml.ReaderWriter.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Xml.XmlDocument.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Xml.XPath.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\System.Xml.XPath.XDocument.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\vbc.exe
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\vbc.exe.config
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\vbc.rsp
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\VBCSCompiler.exe
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\roslyn\VBCSCompiler.exe.config
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\Newtonsoft.Json.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\Newtonsoft.Json.xml
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\obj\Debug\PWS_1.csproj.CopyComplete
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\obj\Debug\PWS_1.dll
-\\Mac\Home\Downloads\PWS-master\PWS_1\PWS_1\obj\Debug\PWS_1.pdb
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/PWS_1.dll.config
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/PWS_1.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/PWS_1.pdb
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/csc.exe
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/csc.exe.config
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/csc.rsp
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/csi.exe
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/csi.exe.config
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/csi.rsp
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/Microsoft.CodeAnalysis.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/Microsoft.CSharp.Core.targets
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/Microsoft.Managed.Core.targets
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/Microsoft.VisualBasic.Core.targets
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.AppContext.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Collections.Immutable.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Console.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Diagnostics.StackTrace.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.IO.Compression.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.IO.FileSystem.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.IO.FileSystem.Primitives.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.IO.Pipes.AccessControl.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.IO.Pipes.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Reflection.Metadata.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Security.AccessControl.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Security.Claims.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Security.Cryptography.Encoding.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Security.Cryptography.Primitives.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Security.Principal.Windows.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Text.Encoding.CodePages.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.ValueTuple.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Xml.ReaderWriter.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Xml.XmlDocument.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Xml.XPath.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/System.Xml.XPath.XDocument.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/vbc.exe
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/vbc.exe.config
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/vbc.rsp
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/VBCSCompiler.exe
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/roslyn/VBCSCompiler.exe.config
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/Newtonsoft.Json.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/Newtonsoft.Json.xml
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/obj/Debug/PWS_1.csproj.CopyComplete
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/obj/Debug/PWS_1.dll
+//Mac/Home/Downloads/PWS-master/PWS_1/PWS_1/obj/Debug/PWS_1.pdb
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/PWS_1.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/PWS_1.pdb
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/csc.exe
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/csc.exe.config
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/csc.rsp
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/csi.exe
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/csi.exe.config
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/csi.rsp
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/Microsoft.Managed.Core.targets
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.AppContext.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Collections.Immutable.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Console.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.IO.Compression.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.IO.FileSystem.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.IO.Pipes.AccessControl.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.IO.Pipes.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Reflection.Metadata.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Security.AccessControl.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Security.Claims.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Security.Cryptography.Encoding.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Security.Cryptography.Primitives.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Security.Principal.Windows.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Text.Encoding.CodePages.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.ValueTuple.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Xml.ReaderWriter.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Xml.XmlDocument.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Xml.XPath.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/System.Xml.XPath.XDocument.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/vbc.exe
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/vbc.exe.config
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/vbc.rsp
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/VBCSCompiler.exe
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/roslyn/VBCSCompiler.exe.config
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/Newtonsoft.Json.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/Newtonsoft.Json.xml
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/obj/Debug/PWS_1.csprojAssemblyReference.cache
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/obj/Debug/PWS_1.csproj.CopyComplete
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/obj/Debug/PWS_1.dll
+/Users/dianaagapkina/Desktop/STUDY/ASP-7/PWS_1/PWS_1/obj/Debug/PWS_1.pdb
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\PWS_1.dll.config
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\PWS_1.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\PWS_1.pdb
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\csc.exe
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\csc.exe.config
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\csc.rsp
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\csi.exe
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\csi.exe.config
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\csi.rsp
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\Microsoft.Managed.Core.targets
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.AppContext.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Console.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Diagnostics.StackTrace.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.IO.Compression.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.IO.FileSystem.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.IO.Pipes.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Security.AccessControl.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Security.Claims.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Security.Principal.Windows.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Text.Encoding.CodePages.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.ValueTuple.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Xml.ReaderWriter.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Xml.XmlDocument.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Xml.XPath.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\System.Xml.XPath.XDocument.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\vbc.exe
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\vbc.exe.config
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\vbc.rsp
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\Newtonsoft.Json.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\Newtonsoft.Json.xml
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\obj\Debug\PWS_1.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\obj\Debug\PWS_1.csproj.CopyComplete
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\obj\Debug\PWS_1.dll
+\\Mac\Home\Desktop\STUDY\ASP-7\PWS_1\PWS_1\obj\Debug\PWS_1.pdb
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\PWS_1.dll.config
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\PWS_1.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\PWS_1.pdb
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\csc.exe
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\csc.exe.config
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\csc.rsp
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\csi.exe
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\csi.exe.config
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\csi.rsp
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.AppContext.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Collections.Immutable.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Console.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.IO.Compression.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.IO.FileSystem.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.IO.Pipes.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Security.AccessControl.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Security.Claims.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.ValueTuple.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Xml.XPath.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\vbc.exe
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\vbc.exe.config
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\vbc.rsp
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\VBCSCompiler.exe
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\roslyn\VBCSCompiler.exe.config
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\Newtonsoft.Json.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\Newtonsoft.Json.xml
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\obj\Debug\PWS_1.csprojAssemblyReference.cache
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\obj\Debug\PWS_1.csproj.CoreCompileInputs.cache
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\obj\Debug\PWS_1.csproj.CopyComplete
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\obj\Debug\PWS_1.dll
+D:\Учёба\4 curs\ASP.NET\PWS_1\PWS_1\obj\Debug\PWS_1.pdb

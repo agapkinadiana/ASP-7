@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <input type="button" value="GET" onclick="ApiGet()" />
+    <input type="button" value="POST" onclick="ApiPost()" />
+    <input type="button" value="PUT" onclick="ApiPut()" />
+    <input type="button" value="DELETE" onclick="ApiDelete()" />
+    <br/>
+    <div><input type="text" id="inputPost" /></div>
+    <hr />
+
+    <div id="result">
+
+    </div>
+
+    <script>
+        async function ApiGet() {
+            let url = window.location.protocol + "//" + window.location.host + "/test.ads"
+            let response = await fetch(url);
+
+            if (response.ok) {
+                let res = await response.text();
+                window.document.getElementById("result").innerText = res;
+            } else {
+                alert("Ошибка HTTP: " + response.status);
+            }
+        }
+        async function ApiPost() {
+            let value = document.getElementById('inputPost').value;
+            let url = window.location.protocol + "//" + window.location.host + "/test.ads?result=" + value
+            let response = await fetch(url, { method: 'POST' });
+
+            if (response.ok) {
+                let res = await response.text();
+                window.document.getElementById("result").innerText = res;
+            } else {
+                alert("Ошибка HTTP: " + response.status);
+            }
+            value = '';
+        }
+        async function ApiPut() {
+            let value = document.getElementById('inputPost').value;
+            let url = window.location.protocol + "//" + window.location.host + "/test.ads?add=" + value
+            let response = await fetch(url, { method: 'PUT' });
+
+            if (response.ok) {
+                let res = await response.text();
+                window.document.getElementById("result").innerText = res;
+            } else {
+                alert("Ошибка HTTP: " + response.status);
+            }
+            value = '';
+        }
+        async function ApiDelete() {
+            let url = window.location.protocol + "//" + window.location.host + "/test.ads"
+            let response = await fetch(url, { method: 'DELETE' });
+
+            if (response.ok) {
+                let res = await response.text();
+                window.document.getElementById("result").innerText = res;
+            } else {
+                alert("Ошибка HTTP: " + response.status);
+            }
+        }
+    </script>
+
+</body>
+</html>
